@@ -36,7 +36,7 @@ with st.sidebar:
     customer_name = st.text_input("Customer Name (Optional)")
     call_id = st.text_input("Call ID (Optional)")
     
-    model = st.text_input("Model", value="google/gemma-3-27b-it")
+    model = st.text_input("Model", value="google/gemma-4-26b-a4b-it")
 
     run_pipeline = st.button("Run Pipeline", type="primary", use_container_width=True)
 
